@@ -1,0 +1,4 @@
+.one-news__tegs {
+    display: flex;
+    flex-wrap: wrap;
+}

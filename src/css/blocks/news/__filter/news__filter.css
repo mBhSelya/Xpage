@@ -1,0 +1,9 @@
+.news__filter {
+    display: flex;
+}
+
+@media screen and (max-width: 1030px) {
+    .news__filter {
+        flex-direction: column;
+    }    
+}

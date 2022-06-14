@@ -1,0 +1,13 @@
+.news__select-header {
+    border: 2px solid #373334;
+    padding: 17px 25px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.news__select-header:hover {
+    opacity: .6;
+}

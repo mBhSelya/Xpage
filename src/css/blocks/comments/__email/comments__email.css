@@ -1,0 +1,30 @@
+.comments__email {
+    background-color: inherit;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 0 12px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 338px;
+    margin: 0 62px 0 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .comments__email {
+        width: 35%
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .comments__email {
+        width: 80%;
+        margin: 0 0 20px;
+    }    
+}

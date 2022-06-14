@@ -1,0 +1,14 @@
+.one-news__width {
+    width: 1504px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1504px) {
+    .one-news__width {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }    
+}

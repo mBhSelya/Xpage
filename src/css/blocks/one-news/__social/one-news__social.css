@@ -1,0 +1,11 @@
+.one-news__social {
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 0 0;
+}
+
+@media screen and (max-width: 700px) {
+    .one-news__social {
+        flex-direction: column;
+    }    
+}

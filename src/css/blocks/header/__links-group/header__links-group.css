@@ -1,0 +1,9 @@
+.header__links-group {
+    display: flex;
+}
+
+@media screen and (max-width: 550px) {
+    .header__links-group {
+        flex-direction: column;
+    }    
+}

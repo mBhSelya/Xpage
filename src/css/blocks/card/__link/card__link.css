@@ -1,0 +1,11 @@
+.card__link {
+    text-decoration: none;
+    color: #373334;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.card__link:hover {
+    opacity: .6;
+}

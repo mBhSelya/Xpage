@@ -1,0 +1,14 @@
+.footer__confidentiality {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.footer__confidentiality:hover {
+    opacity: .6;
+}

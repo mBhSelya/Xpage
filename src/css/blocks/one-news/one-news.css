@@ -1,0 +1,7 @@
+.one-news {
+    display: flex;
+    flex-direction: column;
+    margin: 52px 0 140px 0;
+    color: #373334;
+    font-family: 'Roboto', sans-serif;
+}

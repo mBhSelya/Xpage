@@ -1,0 +1,47 @@
+mixin oneNews(news)
+    section.one-news
+        .one-news__width
+            h2.one-news__title= news.title 
+            span.one-news__path Главная / Новости / Медицина
+            .one-news__info 
+                each i in news.rubric
+                    span.one-news__rubric= i 
+                span.one-news__date= news.date
+            .one-news__content
+                p.one-news__subtitle= news.subtitle
+                p.one-news__note= news.note
+                .one-news__image-container
+                    img.one-news__image(src=news.img, alt="")
+                span.one-news__quote-author= news.quoteAuthor
+                span.one-news__profession= news.profession
+                p.one-news__quote= news.quote
+                p.one-news__text= news.text
+                .one-news__social
+                    .one-news__author-group
+                        span.one-news__author-title Автор материала
+                        span.one-news__author= news.author
+                    .one-news__tegs-group 
+                        span.one-news__tegs-title Теги
+                        .one-news__tegs
+                            each teg in news.tegs
+                                span.one-news__teg= teg
+                    .one-news__share-group
+                        span.one-news__share-title Поделиться
+                        ul.one-news__links
+                            li.one-news__link
+                                a(href="#")  
+                                    img.one-news__social-media(src="../../img/YouTube.svg", alt="YouTube")
+                            li.one-news__link
+                                a(href="#")  
+                                    img.one-news__social-media(src="../../img/Facebook.svg", alt="Facebook")
+                            li.one-news__link 
+                                a(href="#") 
+                                    img.one-news__social-media(src="../../img/вк.svg", alt="Вконтакте")
+                            li.one-news__link
+                                a(href="#") 
+                                    img.one-news__social-media(src="../../img/однокласники.svg", alt="Одноклассники")
+                            li.one-news__link
+                                a(href="#") 
+                                    img.one-news__social-media(src="../../img/instagram.svg", alt="Instagram")
+
++oneNews(news[1])

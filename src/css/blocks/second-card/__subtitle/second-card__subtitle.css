@@ -1,0 +1,15 @@
+.second-card__subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #373334;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1350px) {
+    .second-card__subtitle {
+        font-size: 12px;
+    }    
+}

@@ -1,0 +1,16 @@
+.header__search {
+    height: 18px;
+    width: 18px;
+    background-image: url(../../../../img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    margin: 0 0 0 44px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.header__search:hover {
+    opacity: .6;
+}

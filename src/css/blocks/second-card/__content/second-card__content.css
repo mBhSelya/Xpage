@@ -1,0 +1,13 @@
+.second-card__content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .second-card__content {
+        flex-direction: column;
+        align-items: flex-start;
+    }    
+}

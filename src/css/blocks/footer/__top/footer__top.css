@@ -1,0 +1,4 @@
+.footer__top {
+    display: flex;
+    flex-direction: column;
+}

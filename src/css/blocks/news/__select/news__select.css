@@ -1,0 +1,15 @@
+.news__select {
+    position: relative;
+    width: 468px;
+    margin: 0 0 0 50px;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+@media screen and (max-width: 1030px) {
+    .news__select {
+        margin: 20px 0 0;
+        max-width: 468px;
+        width: 90vw;
+    }    
+}

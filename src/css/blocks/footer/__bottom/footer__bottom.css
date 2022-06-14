@@ -1,0 +1,9 @@
+.footer__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px solid #373334;
+    padding: 47px 0 0;
+    margin: 52px 0 0;
+}

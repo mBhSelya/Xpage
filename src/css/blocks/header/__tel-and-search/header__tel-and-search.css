@@ -1,0 +1,29 @@
+.header__tel-and-search {
+    display: flex;
+    align-items: center;
+    margin: 64px 0 70px;
+}
+
+@media screen and (max-width: 1350px) {
+    .header__tel-and-search {
+        margin: 40px 40px 0 0;
+    }    
+}
+
+@media screen and (max-width: 910px) {
+    .header__tel-and-search {
+        margin: 20px 40px 0 0;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    .header__tel-and-search {
+        margin: 20px 0 20px 0;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .header__tel-and-search {
+        margin: 50px 0 20px 0;
+    }    
+}

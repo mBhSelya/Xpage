@@ -1,0 +1,13 @@
+.news__select-body {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-top: 0;
+    background-color:#F2F2F2;
+    height: 0;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    z-index: 5;
+}

@@ -1,0 +1,9 @@
+.comments__button-photo {
+    color: white;
+    border: none;
+    background-image: url(../../../../img/clip.svg);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-size: 19px 19px;
+    height: 19px;
+}

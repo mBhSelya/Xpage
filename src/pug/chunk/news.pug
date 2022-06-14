@@ -1,0 +1,45 @@
+mixin card(item)
+    article.card
+        a.card__link(href="../index2.html")
+            img.card__image(src=item.img, alt="Изображение новости")
+            .card__info 
+                each i in item.rubric
+                    span.card__rubric= i
+                span.card__date= item.date
+            p.card__title= item.title
+            img.card__icon(src="../../img/arrow-card.svg", alt="Иконка")
+
+mixin second-card(news)
+    article.second-card
+            img.second-card__image(src=news.img, alt="Изображение новости")
+            .second-card__content
+                .second-card__text 
+                    .second-card__info
+                        each i in news.rubric
+                            span.second-card__rubric= i
+                        span.second-card__date= news.date
+                    p.second-card__title= news.title
+                    p.second-card__subtitle= news.subtitle 
+                img.second-card__icon(src="../../img/arrow-card.svg", alt="Иконка")
+
+section.news 
+    .news__width 
+        h2.news__title Все новости
+        span.news__path Главная/Новости
+        .news__filter
+            input.news__calendar#el(type="data" placeholder="Введите дату")
+            .news__select
+                .news__select-header 
+                    span.news__select-current Выбрать рубрику
+                    img(src="../../img/arrowDown.svg", alt="Стрелка вниз")
+                .news__select-body 
+                    .news__select-item Медицина
+                    .news__select-item Общество
+                    .news__select-item Коммуналка
+                    .news__select-item Политика
+                    .news__select-item Спорт
+                    .news__select-item Вектор развития
+        .news__cards
+            each item in news
+                +card(item)
+        +second-card(news[1])

@@ -1,0 +1,21 @@
+.header__width {
+    border-bottom: 4px solid #373334;
+    padding: 0 0 24px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1504px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 1550px) {
+    .header__width {
+        padding: 0 20px 24px;
+    }    
+}
+
+@media screen and (max-width: 1350px) {
+    .header__width {
+        flex-direction: column;
+    }    
+}

@@ -1,0 +1,17 @@
+.one-news__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    padding: 0;
+    margin: 0;
+    max-width: 1300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .one-news__title {
+        font-size: 30px;
+        line-height: 40px;
+    }    
+}

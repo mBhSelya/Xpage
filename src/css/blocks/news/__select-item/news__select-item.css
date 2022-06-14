@@ -1,0 +1,14 @@
+.news__select-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 17px 25px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.news__select-item:hover {
+    color: #9F0023;
+}

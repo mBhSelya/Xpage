@@ -1,0 +1,8 @@
+.one-news__content {
+    max-width: 985px;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #373334;
+    margin: 17px 0 0 0;
+    padding: 43px 0 0 0;
+}

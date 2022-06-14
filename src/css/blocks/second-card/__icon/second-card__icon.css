@@ -1,0 +1,9 @@
+.second-card__icon {
+    transform: rotate(135deg);
+}
+
+@media screen and (max-width: 600px) {
+    .second-card__icon {
+        margin: 20px 0 0;
+    }    
+}

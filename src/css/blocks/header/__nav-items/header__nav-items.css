@@ -1,0 +1,18 @@
+.header__nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0%;
+}
+
+@media screen and (max-width: 910px) {
+    .header__nav-items {
+        flex-wrap: wrap;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .header__nav-items {
+        flex-direction: column;
+    }    
+}
